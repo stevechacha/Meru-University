@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            android:checked="true" />
+        <item
+            android:id="@+id/trip"
+            android:icon="@drawable/ic_portal"
+            android:title="Student Portal" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_labels"
+            android:title="About us" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subtitle"
+            android:title="Subtitle">
+            <menu>
+                <item
+                    android:id="@+id/item4"
+                    android:icon="@drawable/ic_contact_us"
+                    android:title="Contact us" />
+
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

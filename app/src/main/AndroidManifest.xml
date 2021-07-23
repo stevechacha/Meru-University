@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.steve.must">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_meru"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_meru_round"
+        android:supportsRtl="true"
+        android:theme="@style/splashScreenTheme">
+        <activity android:name=".NavigationActivity"></activity>
+        <activity android:name=".StaffPortalActivity" />
+        <activity android:name=".FeeStructureActivity" />
+        <activity android:name=".TimetableActivity" />
+        <activity android:name=".AccomodationActivity" />
+        <activity android:name=".StudentEmailActivity" />
+        <activity android:name=".LibraryActivity" />
+        <activity android:name=".StudentPortalActivity" />
+        <activity android:name=".MainScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
